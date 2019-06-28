@@ -10,10 +10,12 @@ const locationRoutes = require('./api/routes/location');
 
 mongoose.connect('mongodb://localhost:27017/tracking');
 // mongoose.connect(
-//     "mongodb+srv://rajashree:" +process.env.MONGO_ATLAS_PW + "@node-servers-welef.mongodb.net/test?retryWrites=true&w=majority" ,{
-//         useNewUrlParser:true
+//     // "mongodb+srv://rajashree:" +process.env.MONGO_ATLAS_PW + "@node-servers-welef.mongodb.net/test?retryWrites=true&w=majority" 
+//     "mongodb+srv://rajashree:" + process.env.MONGO_ATLAS_PW + "@cluster0-mqswf.mongodb.net/test?retryWrites=true&w=majority"
+//     , {
+//         useNewUrlParser: true
 //     });
-mongoose.Promise=global.Promise;
+mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
 app.use(body.urlencoded({ extended: true }));
