@@ -1,8 +1,8 @@
 {
     "env":{
        
-        "JWT_KEY":"secret",
-        "PORT": "https://frozen-coast-93482.herokuapp.com"
+        "JWT_KEY":"secret"
+        
         
 
     }
