@@ -1,8 +1,9 @@
 {
     "env":{
-        "MONGO_ATLAS_PW": "helloitsme23@",
+       
         "JWT_KEY":"secret",
-        "PORT": "frozen-coast-93482.herokuapp.com"
+        "PORT": "https://frozen-coast-93482.herokuapp.com"
+        
 
     }
 }
