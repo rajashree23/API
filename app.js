@@ -43,7 +43,7 @@ app.use((req, res, next) => {
 
 
 //Routes which should handle requests
-app.use('https://frozen-coast-93482.herokuapp.com/users', userRoutes);
+app.use('/users', userRoutes);
 app.use('/location', locationRoutes);
 
 
