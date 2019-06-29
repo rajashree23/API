@@ -43,8 +43,8 @@ app.use((req, res, next) => {
 
 
 //Routes which should handle requests
-app.use('/users/', userRoutes);
-app.use('/location/', locationRoutes);
+app.use('/users', userRoutes);
+app.use('/location', locationRoutes);
 
 
 app.use((req, res, next) => {
